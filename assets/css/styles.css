@@ -1,0 +1,322 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: #eee;
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+}
+
+html{
+    height: 50%;
+}
+
+header{
+    background-color: #fff;
+    border-color: #cccccc;
+}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+nav{
+    font-size: 1.1em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    float: right;
+    margin-right: 10%;
+    margin-top: 0;
+    height: 65px
+}
+
+nav ul{
+    padding-left: 0;
+    margin-bottom: 29px;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline;
+    margin: 10px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #777777;
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.name{
+    background-color: #4aaaa5;
+    color: white;
+    z-index: 1;
+    text-align: center;
+    float: left;
+    margin-left: 10%;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 15px 20px 15px 20px;
+    text-align: center;
+}
+
+#container{
+    width: 80%;
+    min-height: 100%;
+    margin: 0 auto;
+    border: 1px solid #dddddd;
+    background-color: #fff;
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+
+.contentHead{
+    padding: 15px 10px 15px 0px;
+    width: 95%;
+    margin: 15px auto;
+    color: #4aaaa5;
+}
+
+.content{
+    width: 95%;
+    margin: 15px auto;
+    border-top: 1px solid black;
+    padding: 15px 10px 15px 0px;
+    overflow: auto;
+}
+
+#aboutMe{
+    color: #4aaaa5;
+}
+
+#allen{
+    width: 150px;
+    height: 170px;
+    float: left;
+    margin-right: 15px;
+}
+
+p{
+    margin-top: 0;
+    line-height: 1.5;
+}
+
+footer{
+    width: 100%;
+    background-color:#666666;
+    border-top: 8px solid #4aaaa5;
+    padding-top: 60px;
+    padding-bottom: 1px;
+    height: 20px;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0px;
+}
+
+/*Portfolio Styling*/
+
+.projectBox{
+    width: 33%;
+    height: 250px;
+    border: 1px solid black;
+    float: left;
+    margin: 15px 30px 25px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.projectTitle{
+    width: 100%;
+    height: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #4aaaa5;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+    margin: 150px 0 31px 0;
+    overflow: hidden;
+}
+
+.projectTitle p{
+    margin-top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#box1{
+    background-image: url(../images/ipad.jpg);
+    background-repeat: no-repeat;
+}
+
+#box2{
+    background-image: url(https://media.giphy.com/media/l3q2RgN7WUjeUUXm0/giphy.gif);
+    background-repeat: no-repeat;
+}
+
+#box3{
+    background-image: url(../images/earphones.jpg);
+    background-repeat: no-repeat;
+}
+
+#box4{
+    background-image: url(../images/phone.jpg);
+    background-repeat: no-repeat;
+}
+
+#box5{
+    background-image: url(../images/tv.jpg);
+    
+}
+
+#box6{
+    background-image: url(../images/phone.jpg);
+    background-repeat: no-repeat;
+}
+
+a{
+    text-decoration-line: none;
+}
+
+/*Contact Styling*/
+
+input{
+    margin: 3px 0 15px 0;
+    width: 100%;
+    padding: 5px 0 5px 5px;
+}
+
+textarea{
+    margin: 3px 0 15px 0;
+    width: 100%;
+    padding: 5px 0 5px 5px;
+}
+
+#button{
+    background-color: #4aaaa5;
+    padding: 5px 10px 5px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    width: 10%;
+    text-align: center;
+}
+
+@media screen and (max-width: 980px){
+    #container{
+        width: 60%;
+        margin: 0 auto;
+        margin-top: 40px;
+        margin-bottom: 70px;
+        margin-left: 94px;
+    }
+
+    .content{
+        border-top: 1px solid black;
+    }
+
+    .projectBox{
+        margin: 15px 30px 25px 50px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    #container{
+        width: 95%;
+        margin: 40px auto 100px auto;
+    }
+
+    .name{
+        margin-left: 2.1%;
+    }
+
+    nav{
+        margin-right: 2.1%;
+    }
+
+    #allen{
+        width: 250px;
+        height: 250px;
+    }
+
+    .projectBox{
+        margin: 15px 20px 25px 0 ;
+        padding: 0;
+        float: none;
+        display: inline-block;
+        width: 300px;
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 640px){
+    #container{
+        width: 80%;
+    }
+
+    .content{
+        padding-right: 0;
+        overflow: hidden;
+    }
+    
+    .name{
+        width: 100%;
+        margin: 0;
+        text-align: center;
+        padding-right: 0;
+        padding-left: 0;
+    }
+    
+    nav{
+        width: 100%;
+        margin: 0;
+    }
+
+    nav ul{
+        text-align: center;
+        margin: 20px auto;
+    }
+
+    #allen{
+        float: none;
+        width: 100%;
+        height: 400px;
+    }
+
+    p{
+        line-height: 2;
+    }
+
+    .projectBox{
+        float: none;
+        width: 100%;
+    }
+
+    .contentHead{
+        padding-right: 0;
+    }
+
+    input{
+        width: 97%;
+    }
+    
+    textarea{
+        margin: 3px 0 15px 0;
+        width: 98%;
+        padding: 5px 0 5px 5px;
+    }
+    
+    #button{
+        background-color: #4aaaa5;
+        padding: 5px 22px 5px 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #ffffff;
+        width: 10%;
+        text-align: center;
+    }
+}
