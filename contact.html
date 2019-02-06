@@ -1,40 +1,79 @@
 <!DOCTYPE html>
 <html lang="en-us">
     <head>
-        <title>Home</title>
+        <title>Contacts</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
     </head>
     <body>
         <header class="clearfix">
-            <h1 class="name">Allen Emejuobi</h1>
-            
-            <nav>
-                <ul>
-                    <li><a href="index.html">About</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-            
+            <h1 id="siteTitle">Contact</h1>
+            <div id="navBox">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="portfolio.html">Projects</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
         </header>
 
-        <div id="container">
-            <h1 id="contact" class="contentHead">Contact</h1>
-
+        <div class="container">
             <div class="content">
                 <form>
-                    Name<br/>
+                    <p>Name</p>
                     <input type="text" placeholder="John Smith"><br/>
-                    Email<br/>
+                    <p>Email</p>
                     <input type="text" placeholder="example@gmail.com"><br/>
-                    Message<br/>
+                    <p>Message</p>
                     <textarea rows="10" cols="100"></textarea><br/>
-                    <div id="button">Submit</div>
+                    <div id="button" type="Submit">Submit</div>
                 </form>
             </div>
         </div>
 
-        <footer>&copy Allen Emejuobi 2018</footer>
+        <footer>&copy Allen Emejuobi 2019</footer>
     </body>
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="assets/js/script.js"></script>
 </html>
+
+
+
+
+
+
+<!-- <header class="clearfix">
+    <h1 class="name">Allen Emejuobi</h1>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">About</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    
+</header>
+
+<div id="container">
+    <h1 id="contact" class="contentHead">Contact</h1>
+
+    <div class="content">
+        <form>
+            Name<br/>
+            <input type="text" placeholder="John Smith"><br/>
+            Email<br/>
+            <input type="text" placeholder="example@gmail.com"><br/>
+            Message<br/>
+            <textarea rows="10" cols="100"></textarea><br/>
+            <div id="button">Submit</div>
+        </form>
+    </div>
+</div> -->
