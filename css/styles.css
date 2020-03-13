@@ -30,7 +30,7 @@ body{
 }
 
 #home{
-    overflow: hidden;
+    /* overflow: hidden; */
     /* overflow-y: hidden; */
 }
 
@@ -90,7 +90,7 @@ body{
 /* Header Showcase */
 #showcase{
     background: url("../images/monitor.jpg") no-repeat center center/cover;
-    height: 100vh;
+    height: 98vh;
 }
 
 #showcase .showcase-content{
@@ -269,6 +269,21 @@ body{
     transition-duration: 0.2s;
 }
 
+footer{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-between;
+    background: var(--primary-color);
+    color: #fff;
+    position: sticky;
+    padding: 1rem;
+    z-index: 1;
+}
+
+footer .footer-content{
+    align-items: center;
+}
 
 
 
