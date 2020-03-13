@@ -1,85 +1,38 @@
 <!DOCTYPE html>
 <html lang="en-us">
-
     <head>
         <title>Home</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-        <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" media="screen and (min-width: 1100px)" href="css/widescreen.css">
+        <link rel="stylesheet" media="screen and (max-width: 600px)" href="css/mobile.css">
     </head>
-
-    <body>
-        <header class="clearfix">
-            <h1 id="siteTitle">Allen Emejuobi</h1>
-            <div id="navBox">
-                <nav>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="portfolio.html">Projects</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </nav>
+    <body id="home">
+        <!-- Navigation -->
+        <nav id="navbar">
+            <div class="home-logo">
+                <a href="index.html"><i class="fas fa-home fa-2x"></i></a>
             </div>
-        </header>
 
-        <div class="container">
-            <!-- <h1 id="hello">Hello World!</h1> -->
-            <img src="assets/images/allen.jpg" id="me">
-            <!-- <h4>My name is Allen Emejuobi</h4> -->
-
-            <div id="summary">
-                <p class="clearfix">My name is Allen Emejuobi. My journey into the tech world started at a young age, but I never thought I would pursue a career in the Software Engineering field. My interests are in mobile applications, web applications, and the internet of things. With that in mind, my goal is to gain skills that will put me in a job in Software Engineering as a Back-End Developer dealing with IoT.</p>
-            </div>
-        </div>
-
-        <footer><p id="footerText">&copy Allen Emejuobi 2019</p></footer>
-    </body>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="assets/js/script.js"></script>
-</html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- <div>
-    <header class="clearfix">
-        <h1 class="name">Allen Emejuobi</h1>
-        <nav>
             <ul>
-                <li><a href="index.html">About</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="index.html" class="current">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
 
-    </header>
-</div>
+        <!-- Header Showcase -->
+        <header id="showcase">
+            <div class="showcase-content">
+                <img id="allen" src="images/allen.jpg" alt="allen">
+                <h1>Allen Emejuobi</h1>
+                <h2>Fullstack Developer</h2>
+                <p>HTML | CSS | JAVASCRIPT | JQUERY | MYSQL | MONGO DB | EXPRESS | REACT | NODE</p>
+            </div>
+        </header>
 
-<div id="container">
-    
-    <h1 id="aboutMe" class="contentHead">About Me</h1>
+        <!-- About -->
 
-    <div class="content">
-
-        <img src="assets/images/allen.jpg" alt="allen" id="allen">
-        
-        <p>Hello world! As you can very well see (hopefully), my name is Allen Emejuobi. If you can't pronounce the last name, it is because it is of Nigerian descent. However, I was born and raised in Kansas City. Nevertheless, I still claim my heritage and rep my country! Anyway, my journey into the tech world started at a young age, but I never thought I would pursue a career in the Software Engineering field. A good friend of mine kind of got me into the idea of coding, so I did what every other beginner would do and started on Codecademy. I got hooked after that and have been teaching myself ever since then. Fast forward a few years, and I haven't made much progress. I found out about coding bootcamps through random research online and started digging into it, and here I am now at KU's coding bootcamp. The goal is to gain skills that will bring me financial freedom while enjoying what I do and traveling the world.</p>
-
-        <p>I have a wide range of interests and things I would like to do in life. My first passion was, and still is, cars. Not so much of working on them anymore, but driving nice and fast cars. I made a promise to myself that once I get a nice paying career, I would reward myself with a 2017 Mercedes C63s Amg Coupe. That will be the proof that all the struggles over the years weren't for nothing. However, the biggest reward will be seeing the joy in my mother and knowing that I did have made her proud after all the sacrifices she made for her children.</p>
-
-        <p>This is the beginning of a new stage in my life, and I plan to squeeze as much opportunity as I can out of it.</p>
-
-    </div>
-
-</div> -->
+    </body>
+</html>

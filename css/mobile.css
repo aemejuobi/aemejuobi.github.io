@@ -1,0 +1,28 @@
+#navbar .home-logo{
+    display: none;
+}
+
+#navbar ul{
+    /* flex-direction: row; */
+    margin: 0 auto;
+}
+
+#showcase .showcase-content img{
+    width: 250px;
+    height: 250px;
+}
+
+.container-box{
+    flex: 1;
+}
+
+.contact-box .contact-info{
+    font-size: 2rem;
+    text-align: center;
+    align-items: center;
+}
+
+.contact-box .social-media{
+    margin: 2rem 1rem;
+    align-items: center;
+}

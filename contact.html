@@ -3,77 +3,43 @@
     <head>
         <title>Contacts</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-        <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" media="screen and (min-width: 1100px)" href="css/widescreen.css">
+        <link rel="stylesheet" media="screen and (max-width: 600px)" href="css/mobile.css">
     </head>
     <body>
-        <header class="clearfix">
-            <h1 id="siteTitle">Contact</h1>
-            <div id="navBox">
-                <nav>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="portfolio.html">Projects</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
 
-        <div class="container">
-            <div class="content">
-                <form>
-                    <p>Name</p>
-                    <input type="text" placeholder="John Smith"><br/>
-                    <p>Email</p>
-                    <input type="text" placeholder="example@gmail.com"><br/>
-                    <p>Message</p>
-                    <textarea rows="10" cols="100"></textarea><br/>
-                    <div id="button" type="Submit">Submit</div>
-                </form>
+        <!-- Navigation -->
+        <nav id="navbar">
+            <div class="home-logo">
+                <a href="index.html"><i class="fas fa-home fa-2x"></i></a>
             </div>
-        </div>
 
-        <footer>&copy Allen Emejuobi 2019</footer>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html" class="current">Contact</a></li>
+            </ul>
+        </nav>
+            <header class="heading">
+                <h1>Contact</h1>
+            </header>
+
+            <!-- Contact -->
+            <div class="container contact-box">
+                <section class="contact-info">
+                    <p>Allen Emejuobi</p>
+                    <p>govallen@gmail.com</p>
+                    <p>816-679-9436</p>
+
+                </section>
+
+                <section class="social-media">
+                    <a href="https://www.linkedin.com/in/aemejuobi" target="_blank"><i class="fab fa-linkedin fa-3x"></i></a>
+                    <a href="https://www.instagram.com/symbah09" target="_blank"><i class="fab fa-instagram fa-3x"></i></a>
+                    <a href="https://github.com/aemejuobi" target="_blank"><i class="fab fa-github fa-3x"></i></a>
+                </section>
+            </div>
     </body>
-
-
-
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="assets/js/script.js"></script>
 </html>
-
-
-
-
-
-
-<!-- <header class="clearfix">
-    <h1 class="name">Allen Emejuobi</h1>
-    
-    <nav>
-        <ul>
-            <li><a href="index.html">About</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
-    
-</header>
-
-<div id="container">
-    <h1 id="contact" class="contentHead">Contact</h1>
-
-    <div class="content">
-        <form>
-            Name<br/>
-            <input type="text" placeholder="John Smith"><br/>
-            Email<br/>
-            <input type="text" placeholder="example@gmail.com"><br/>
-            Message<br/>
-            <textarea rows="10" cols="100"></textarea><br/>
-            <div id="button">Submit</div>
-        </form>
-    </div>
-</div> -->

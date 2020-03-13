@@ -1,0 +1,311 @@
+:root{
+    --max-width: 1100px;
+    --primary-color: #333;
+    --third-color: #ccc;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4;
+    font-size: 1.2rem;
+    background: #eee;
+}
+
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    margin: 1rem 1rem 5rem 1rem;
+}
+
+.heading h1{
+    font-size: 4rem;
+}
+
+#home{
+    overflow: hidden;
+    /* overflow-y: hidden; */
+}
+
+.current{
+    border-bottom: 5px solid #fff;
+}
+
+/* Navigation */
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    background: var(--primary-color);
+    color: #fff;
+    position: sticky;
+    padding: 1rem;
+    z-index: 1;
+    top: 0;
+    /* width: 100%; */
+}
+
+#navbar .home-logo{
+    padding-left: 1rem;
+    
+    margin-left: 1rem;
+}
+
+#navbar .home-logo a i{
+    color: #fff;
+    /* margin-left: 1rem; */
+}
+
+#navbar ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-right: 1rem;
+    /* padding-right: 0.5rem; */
+
+}
+
+#navbar ul li{
+    justify-content: space-between;
+    padding: 0.5rem;
+}
+
+#navbar ul li a{
+    color: #fff;
+    font-weight: bold;
+    margin: 0.55rem;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover{
+    border-bottom: 5px solid #fff
+}
+
+/* Header Showcase */
+#showcase{
+    background: url("../images/monitor.jpg") no-repeat center center/cover;
+    height: 100vh;
+}
+
+#showcase .showcase-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 100%;
+    padding: 1rem;
+    color: #fff;
+    position: absolute;
+    top: 58px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0, 0.4);
+}
+
+#showcase .showcase-content img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+    transform: translateY(-1100px);
+    animation: animate-pic .8s forwards ease-in;
+}
+
+#showcase .showcase-content h1{
+    font-size: 3rem;
+    border-bottom: 2px solid #fff;
+    transform: translateX(-2500px);
+    animation: animate-header .8s forwards ease-in;
+}
+
+#showcase .showcase-content h2{
+    transform: translateX(-2500px);
+    animation: animate-header .8s forwards ease-in;
+}
+
+#showcase .showcase-content p{
+    font-weight: bold;
+    transform: translateX(2500px);
+    animation: animate-text .8s forwards ease-in;
+}
+
+/* Project Page Styling */
+#project{
+    /* background: url("../images/wood.jpg") no-repeat center center/cover; */
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 auto;
+    /* padding: 0 2rem; */
+}
+
+.container .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: var(--third-color);
+    width: 300px;
+    height: 350px;
+    margin: 1rem;
+    background: url("../images/projects.jpg") no-repeat center center/cover; /*Photo by Karl Pawlowicz on Unsplash*/
+    border-radius: 1px;
+    /* position: absolute; */
+    top: 58px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0, 0.4);
+}
+
+.container .card .card-overlay{
+    /* margin-top: 125px; */
+    height: 100%;
+    width: 100%;
+    /* left: 0;
+    right: 0;
+    bottom: 0; */
+    background-color: rgba(0,0,0, 0.5);
+}
+
+.container .card .card-overlay .card-description{
+    margin-top: 125px;
+    color: #fff;
+}
+
+.container .card .card-overlay .card-description a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.container .card .card-overlay:hover {
+    background-color: rgba(0,0,0, 0.7);
+    transition-duration: 0.5s;
+}
+
+.container .card:hover{
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+
+.container .card-1{
+    background: url("../images/hangman.png") no-repeat center center/cover;
+}
+
+.container .card-2{
+    background: url("../images/crystal-collector.png") no-repeat center center/cover;
+}
+
+.container .card-3{
+    background: url("../images/trivia-game.png") no-repeat center center/cover;
+}
+
+.container .card-4{
+    background: url("../images/giftastc.png") no-repeat center center/cover;
+}
+
+.container .card-5{
+    background: url("../images/train-sheduler.png") no-repeat center center/cover;
+}
+
+.container .card-6{
+    background: url("../images/byob.png") no-repeat center center/cover;
+}
+
+.container .card-7{
+    background: url("../images/clicky-game.png") no-repeat center center/cover;
+}
+
+.container .card-8{
+    background: url("../images/book-search.png") no-repeat center center/cover;
+}
+
+.container .card-9{
+    background: url("../images/iwakc.png") no-repeat center center/cover;
+}
+
+/* Contact Page Styling */
+.contact-box .contact-info p{
+    font-size: 2rem;
+    color: #000;
+}
+
+.contact-box .social-media a{
+    color: #000;
+    margin: 0.5rem 1rem;
+}
+
+.contact-box .social-media a:last-child{
+    color: #000;
+    margin: 0.5rem 1rem;
+}
+
+.contact-box .social-media a .fa-linkedin:hover{
+    color: rgb(13, 135, 216);
+    transition-duration: 0.2s;
+}
+
+.contact-box .social-media a .fa-instagram:hover{
+    color: rgb(248, 17, 17);
+    transition-duration: 0.2s;
+    
+}
+
+.contact-box .social-media a .fa-github:hover{
+    color: var(--primary-color);
+    transition-duration: 0.2s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Animations */
+@keyframes animate-pic{
+    from{
+        transform: translateY(-1100px);
+    }
+    to{
+        transform: translateY(0px);
+    }
+
+}
+
+@keyframes animate-header{
+    from{
+        transform: translateX(-2500px);
+    }
+    to{
+        transform: translateX(0px);
+    }
+}
+
+@keyframes animate-text{
+    from{
+        transform: translateX(2500px);
+    }
+    to{
+        transform: translateX(0px);
+    }
+}
