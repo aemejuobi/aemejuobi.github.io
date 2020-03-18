@@ -10,6 +10,10 @@
     box-sizing: border-box;
 }
 
+html, body{
+    overflow-x: hidden;
+}
+
 body{
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.4;
@@ -29,11 +33,6 @@ body{
     font-size: 4rem;
 }
 
-#home{
-    /* overflow: hidden; */
-    /* overflow-y: hidden; */
-}
-
 .current{
     border-bottom: 5px solid #fff;
 }
@@ -48,7 +47,6 @@ body{
     padding: 1rem;
     z-index: 1;
     top: 0;
-    /* width: 100%; */
 }
 
 #navbar .home-logo{
@@ -59,7 +57,6 @@ body{
 
 #navbar .home-logo a i{
     color: #fff;
-    /* margin-left: 1rem; */
 }
 
 #navbar ul{
@@ -67,7 +64,6 @@ body{
     align-items: center;
     list-style: none;
     margin-right: 1rem;
-    /* padding-right: 0.5rem; */
 
 }
 
@@ -90,7 +86,7 @@ body{
 /* Header Showcase */
 #showcase{
     background: url("../images/monitor.jpg") no-repeat center center/cover;
-    height: 98vh;
+    height: 97vh;
 }
 
 #showcase .showcase-content{
@@ -108,6 +104,7 @@ body{
     right: 0;
     bottom: 0;
     background-color: rgba(0,0,0, 0.4);
+    overflow: hidden;
 }
 
 #showcase .showcase-content img{
@@ -137,9 +134,6 @@ body{
 }
 
 /* Project Page Styling */
-#project{
-    /* background: url("../images/wood.jpg") no-repeat center center/cover; */
-}
 
 .container{
     display: flex;
@@ -149,7 +143,6 @@ body{
     flex-wrap: wrap;
     width: 100%;
     margin: 0 auto;
-    /* padding: 0 2rem; */
 }
 
 .container .card{
@@ -163,7 +156,6 @@ body{
     margin: 1rem;
     background: url("../images/projects.jpg") no-repeat center center/cover; /*Photo by Karl Pawlowicz on Unsplash*/
     border-radius: 1px;
-    /* position: absolute; */
     top: 58px;
     left: 0;
     right: 0;
@@ -172,12 +164,8 @@ body{
 }
 
 .container .card .card-overlay{
-    /* margin-top: 125px; */
     height: 100%;
     width: 100%;
-    /* left: 0;
-    right: 0;
-    bottom: 0; */
     background-color: rgba(0,0,0, 0.5);
 }
 
@@ -237,53 +225,66 @@ body{
     background: url("../images/iwakc.png") no-repeat center center/cover;
 }
 
-/* Contact Page Styling */
-.contact-box .contact-info p{
-    font-size: 2rem;
-    color: #000;
+footer{
+    background: var(--primary-color);
+    color: #fff;
+    position: sticky;
+    padding: 0 1rem;
+    z-index: 1;
 }
 
-.contact-box .social-media a{
-    color: #000;
-    margin: 0.5rem 1rem;
+footer .footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    color: #fff;
+
 }
 
-.contact-box .social-media a:last-child{
-    color: #000;
-    margin: 0.5rem 1rem;
+footer .footer-content a{
+    color: #fff;
+    text-decoration: none;
 }
 
-.contact-box .social-media a .fa-linkedin:hover{
+footer .footer-content .social-media a{
+    color: #fff;
+    margin: 0 0.5rem;
+}
+
+footer .footer-content .social-media a .fa-linkedin:hover{
     color: rgb(13, 135, 216);
     transition-duration: 0.2s;
 }
 
-.contact-box .social-media a .fa-instagram:hover{
+footer .footer-content .social-media a .fa-instagram:hover{
     color: rgb(248, 17, 17);
     transition-duration: 0.2s;
     
 }
 
-.contact-box .social-media a .fa-github:hover{
-    color: var(--primary-color);
+footer .footer-content .social-media a .fa-github:hover{
+    color: rgb(204, 204, 204);
     transition-duration: 0.2s;
 }
 
-footer{
-    display: flex;
-    align-items: center;
-    margin: 0 auto;
-    justify-content: space-between;
-    background: var(--primary-color);
-    color: #fff;
-    position: sticky;
-    padding: 1rem;
-    z-index: 1;
+@media(max-width: 768px){
+    .container .card{
+        width: 200px;
+        height: 250px;
+    }
+
+    footer .footer-content{
+        flex-direction: column;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    footer .footer-content .social-media{
+        margin-top: 1rem;
+    }
 }
 
-footer .footer-content{
-    align-items: center;
-}
 
 
 

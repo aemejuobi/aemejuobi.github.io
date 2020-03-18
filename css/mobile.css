@@ -1,28 +1,29 @@
+#navbar{
+    padding: 0.5rem;
+}
+
 #navbar .home-logo{
     display: none;
 }
 
 #navbar ul{
-    /* flex-direction: row; */
     margin: 0 auto;
 }
 
+#showcase .showcase-content{
+    height: 110vh;
+    top: 0;
+}
+
 #showcase .showcase-content img{
-    width: 250px;
-    height: 250px;
+    width: 150px;
+    height: 150px;
 }
 
 .container-box{
     flex: 1;
 }
 
-.contact-box .contact-info{
-    font-size: 2rem;
-    text-align: center;
-    align-items: center;
-}
-
-.contact-box .social-media{
-    margin: 2rem 1rem;
-    align-items: center;
+footer .footer-content{
+    flex-direction: column;
 }
