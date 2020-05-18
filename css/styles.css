@@ -225,6 +225,10 @@ body{
     background: url("../images/iwakc.png") no-repeat center center/cover;
 }
 
+.container .card-10{
+    background: url("../images/timer.png") no-repeat center center/cover;
+}
+
 footer{
     background: var(--primary-color);
     color: #fff;
