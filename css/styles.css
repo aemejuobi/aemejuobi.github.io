@@ -109,7 +109,7 @@ body{
 
 #showcase .showcase-content img{
     width: 300px;
-    height: 300px;
+    height: 380px;
     border-radius: 10%;
     transform: translateY(-1100px);
     animation: animate-pic .8s forwards ease-in;
@@ -148,7 +148,6 @@ body{
 .container .card{
     display: flex;
     flex-direction: column;
-    align-items: center;
     text-align: center;
     background: var(--third-color);
     width: 300px;
@@ -170,7 +169,9 @@ body{
 }
 
 .container .card .card-overlay .card-description{
-    margin-top: 125px;
+    /* margin-top: 125px; */
+    display: flex;
+    justify-content: center;
     color: #fff;
 }
 
@@ -190,43 +191,43 @@ body{
 }
 
 .container .card-1{
-    background: url("../images/hangman.png") no-repeat center center/cover;
+    background: url("../images/hangman.png") no-repeat center center/contain;
 }
 
 .container .card-2{
-    background: url("../images/crystal-collector.png") no-repeat center center/cover;
+    background: url("../images/crystal-collector.png") no-repeat center center/contain;
 }
 
 .container .card-3{
-    background: url("../images/trivia-game.png") no-repeat center center/cover;
+    background: url("../images/trivia-game.png") no-repeat center center/contain;
 }
 
 .container .card-4{
-    background: url("../images/giftastc.png") no-repeat center center/cover;
+    background: url("../images/giftastc.png") no-repeat center center/contain;
 }
 
 .container .card-5{
-    background: url("../images/train-sheduler.png") no-repeat center center/cover;
+    background: url("../images/train-sheduler.png") no-repeat center center/contain;
 }
 
 .container .card-6{
-    background: url("../images/byob.png") no-repeat center center/cover;
+    background: url("../images/byob.png") no-repeat center center/contain;
 }
 
 .container .card-7{
-    background: url("../images/clicky-game.png") no-repeat center center/cover;
+    background: url("../images/clicky-game.png") no-repeat center center/contain;
 }
 
 .container .card-8{
-    background: url("../images/book-search.png") no-repeat center center/cover;
+    background: url("../images/book-search.png") no-repeat center center/contain;
 }
 
 .container .card-9{
-    background: url("../images/iwakc.png") no-repeat center center/cover;
+    background: url("../images/iwakc.png") no-repeat center center/contain;
 }
 
 .container .card-10{
-    background: url("../images/timer.png") no-repeat center center/cover;
+    background: url("../images/timer.png") no-repeat center center/contain;
 }
 
 footer{
