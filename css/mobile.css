@@ -15,9 +15,22 @@
     top: 0;
 }
 
+#showcase .showcase-content h1{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+#showcase .showcase-content h2{
+    font-size: 1.2rem;
+}
+
+#showcase .showcase-content p{
+    font-size: 1.2rem;
+}
+
 #showcase .showcase-content img{
     width: 150px;
-    height: 150px;
+    height: 180px;
 }
 
 .container-box{
