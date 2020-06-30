@@ -191,43 +191,43 @@ body{
 }
 
 .container .card-1{
-    background: url("../images/hangman.png") no-repeat center center/contain;
+    background: url("../images/hangman.jpg") no-repeat center center/contain;
 }
 
 .container .card-2{
-    background: url("../images/crystal-collector.png") no-repeat center center/contain;
+    background: url("../images/crystal-collector.jpg") no-repeat center center/contain;
 }
 
 .container .card-3{
-    background: url("../images/trivia-game.png") no-repeat center center/contain;
+    background: url("../images/trivia-game.jpg") no-repeat center center/contain;
 }
 
 .container .card-4{
-    background: url("../images/giftastc.png") no-repeat center center/contain;
+    background: url("../images/giftastc.jpg") no-repeat center center/contain;
 }
 
 .container .card-5{
-    background: url("../images/train-sheduler.png") no-repeat center center/contain;
+    background: url("../images/train-sheduler.jpg") no-repeat center center/contain;
 }
 
 .container .card-6{
-    background: url("../images/byob.png") no-repeat center center/contain;
+    background: url("../images/byob.jpg") no-repeat center center/contain;
 }
 
 .container .card-7{
-    background: url("../images/clicky-game.png") no-repeat center center/contain;
+    background: url("../images/clicky-game.jpg") no-repeat center center/contain;
 }
 
 .container .card-8{
-    background: url("../images/book-search.png") no-repeat center center/contain;
+    background: url("../images/book-search.jpg") no-repeat center center/contain;
 }
 
 .container .card-9{
-    background: url("../images/iwakc.png") no-repeat center center/contain;
+    background: url("../images/iwakc.jpg") no-repeat center center/contain;
 }
 
 .container .card-10{
-    background: url("../images/timer.png") no-repeat center center/contain;
+    background: url("../images/timer.jpg") no-repeat center center/contain;
 }
 
 footer{
