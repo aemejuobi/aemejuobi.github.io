@@ -230,6 +230,10 @@ body{
     background: url("../images/timer.jpg") no-repeat center center/contain;
 }
 
+.container .card-11{
+    background: url("../images/movie-battle.jpg") no-repeat center center/contain;
+}
+
 footer{
     background: var(--primary-color);
     color: #fff;
